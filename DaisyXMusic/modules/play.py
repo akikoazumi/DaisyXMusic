@@ -785,7 +785,7 @@ async def jiosaavn(client: Client, message_: Message):
     except:
         for administrator in administrators:
             if administrator == message_.from_user.id:
-                if message_.chat.title.startswith("Channel Music: "):
+                if message_.chat.title.startswith("@akarida: "):
                     await lel.edit(
                         "<b>Remember to add helper to your channel</b>",
                     )
@@ -813,7 +813,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @DaisyXmusic to your Group and try again</b>",
+                        "\n\nOr manually add @AsistenMusicAkarida to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -851,7 +851,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
+                    text="Join Updates Channel", url=f"https://t.me/{akarida}"
                 )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
