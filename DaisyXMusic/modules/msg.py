@@ -21,11 +21,11 @@ class Messages():
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Hey 👋 Welcome back to {Akarida music}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {Akarida music} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant name >> @{AsistenMusicAkarida}\n\nClick next for instructions**
 """,
 
 f"""
@@ -34,7 +34,7 @@ f"""
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+*) If userbot joined enjoy music, If not add @{AsistenMusicAkarida} to your group and retry
 
 **For Channel Music Play**
 1) Make me admin of your channel 
@@ -88,7 +88,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
-4) Add @{ASSISTANT_NAME} to the channel as an admin.
+4) Add @{AsistenMusicAkarida} to the channel as an admin.
 5) Simply send commands in your group.
 """,
 
@@ -96,7 +96,7 @@ f"""
 **=>> More tools 🧑‍🔧**
 
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+- /userbotjoin: Invite @{AsistenMusicAkarida} Userbot to your chat
 
 **=>> Commands for Sudo Users ⚔️**
 
