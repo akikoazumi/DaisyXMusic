@@ -21,9 +21,9 @@ class Messages():
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {Akarida music}
+**Hey 👋 Welcome back to {Akarida_music}
 
-⚪️ {Akarida music} can play music in your group's voice chat as well as channel voice chats
+⚪️ {Akarida_music} can play music in your group's voice chat as well as channel voice chats
 
 ⚪️ Assistant name >> @{AsistenMusicAkarida}\n\nClick next for instructions**
 """,
